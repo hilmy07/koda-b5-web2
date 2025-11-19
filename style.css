@@ -1,0 +1,49 @@
+/* Jawaban nomor 1 */
+:root {
+    --background-primary: red;
+    --background-secondary: black;
+}
+
+/* Jawaban no 2 */
+input[type=email] {
+    border: 1px solid var(--background-primary);
+}
+
+/* Jawaban no 3 */
+[data-role=primary] {
+    border: 1px solid var(--background-secondary);
+}
+
+/* Jawaban no 4 */
+[data-status=error] {
+    color: var(--background-primary);
+}
+
+/* Jawaban no 5 */
+tbody > tr:nth-child(odd) {
+    background-color: var(--background-primary);
+}
+
+tbody > tr:nth-child(even) {
+    background-color: var(--background-secondary);
+}
+
+td{
+    color: white;
+}
+
+/* Jawaban no 6 */
+li:nth-child(3n) {
+    background-color: yellow;
+    width: 200px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+/* Jawaban no 7 */
+article > h2 + p::first-letter {
+  font-size: 100px;
+}
+
