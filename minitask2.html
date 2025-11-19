@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+
+    <style>
+        @keyframes spin {
+            from { transform: rotate(0deg); }
+            to   { transform: rotate(360deg); }
+        }
+
+        /* Biar rapi: satu class untuk cell tanggal & header */
+        .cell {
+            display: inline-block;
+            width: 60px;
+            padding: 6px 30px;
+            text-align: center;
+        }
+
+        .header {
+            background-color: aqua;
+            padding: 10px 30px;
+        }
+
+        .row {
+            text-align: center;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div style="text-align: center;">
+        <h1>November 2025</h1>
+    </div>
+
+    <!-- Header Hari -->
+    <div class="row">
+        <div class="cell header">Senin</div>
+        <div class="cell header">Selasa</div>
+        <div class="cell header">Rabu</div>
+        <div class="cell header">Kamis</div>
+        <div class="cell header">Jumat</div>
+        <div class="cell header">Sabtu</div>
+        <div class="cell header">Minggu</div>
+    </div>
+
+    <!-- Minggu 1 -->
+    <div class="row">
+        <p class="cell">27</p>
+        <p class="cell">28</p>
+        <p class="cell">29</p>
+        <p class="cell">30</p>
+        <p class="cell">31</p>
+        <p class="cell">1</p>
+        <p class="cell">2</p>
+    </div>
+
+    <!-- Minggu 2 -->
+    <div class="row">
+        <p class="cell">3</p>
+        <p class="cell">4</p>
+        <p class="cell">5</p>
+        <p class="cell">6</p>
+        <p class="cell">7</p>
+        <p class="cell">8</p>
+        <p class="cell">9</p>
+    </div>
+
+    <!-- Minggu 3 -->
+    <div class="row">
+        <p class="cell">10</p>
+        <p class="cell">11</p>
+        <p class="cell">12</p>
+        <p class="cell">13</p>
+        <p class="cell">14</p>
+        <p class="cell">15</p>
+        <p class="cell">16</p>
+    </div>
+
+    <!-- Minggu 4 -->
+    <div class="row">
+        <p class="cell">17</p>
+        <p class="cell">18</p>
+        <p class="cell">19</p>
+        <p class="cell">20</p>
+        <p class="cell">21</p>
+        <p class="cell">22</p>
+        <p class="cell">23</p>
+    </div>
+
+    <!-- Minggu 5 -->
+    <div class="row">
+        <p class="cell">24</p>
+        <p class="cell">25</p>
+        <p class="cell">26</p>
+        <p class="cell">27</p>
+        <p class="cell">28</p>
+        <p class="cell">29</p>
+        <p class="cell">30</p>
+    </div>
+
+    <!-- Box animasi -->
+    <div style="
+        padding: 15px 35px;
+        background: white;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        animation: spin 4s linear infinite;
+        transform-style: preserve-3d;
+        text-align: center;
+        width: 200px;
+        margin-left: auto;
+        display: block;
+    ">
+   Calendar Box
+</div>
+
+
+</body>
+</html>
