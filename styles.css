@@ -1,0 +1,43 @@
+body {
+    background-color: aqua;
+}
+
+.img {
+    width: 50px; 
+    height: 50px; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 20px; 
+    cursor: pointer;
+}
+
+.pantai {
+    font-size: large; 
+    text-align: justify;
+}
+
+.gunung {
+    text-align: justify; 
+    font-size: larger;
+}
+
+.imgGunung,
+.imgPantai {
+    width: 600px; 
+    height: 400px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    box-shadow: 5px 5px;
+}
+
+h2 {
+    font-size: 35px; 
+    text-align: center;
+}
+
+h1 {
+    text-align: center; 
+    font-size: 80px;
+}
+
